@@ -1,7 +1,7 @@
-Algoritmo "FUNÇÃO_SE"
+Algoritmo "FUNÃ‡ÃƒO_SE"
 // 
 //  
-// Descrição   : Praticando com os comandos SE , REPITA, PARA
+// DescriÃ§Ã£o   : Praticando com os comandos SE , REPITA, PARA
 // Autor(a)    : THIAGO GOMES ZIOLKOWSKI
 // Data atual  : 26/10/2022
 
@@ -39,13 +39,13 @@ Inicio
 REPITA
 
          ESCREVAL("-------------------------------------------------------------")
-         ESCREVAL ("              INCLUSÃO DE LANÇAMENTOS")
+         ESCREVAL ("              INCLUSÃƒO DE LANÃ‡AMENTOS")
          ESCREVAL("-------------------------------------------------------------")
          ESCREVAL()
          
          ESCREVAL  ("                  SALDO INICIAL: R$ ",SALDO_INICIAL:8:2)
-         ESCREVAL  ("              TOTAL DE CRÉDITOS: R$ ",TOT_CRED:8:2)
-         ESCREVAL  ("               TOTAL DE DÉBITOS: R$ ",TOT_DEB:8:2)
+         ESCREVAL  ("              TOTAL DE CRÃ‰DITOS: R$ ",TOT_CRED:8:2)
+         ESCREVAL  ("               TOTAL DE DÃ‰BITOS: R$ ",TOT_DEB:8:2)
          ESCREVAL  ("                    SALDO FINAL: R$ ",SALDO_FINAL:8:2)
          ESCREVAL()
 
@@ -56,7 +56,7 @@ REPITA
          ESCREVA("INFORME O NOME DO CLIENTE OU FORNECEDOR: ")
          LEIA (FORNECEDOR_CLIENTE[CONT])
 
-         ESCREVA("DÉBITO [D] CRÉDITO [C]: ")
+         ESCREVA("DÃ‰BITO [D] CRÃ‰DITO [C]: ")
          LEIA (D_C[CONT])
          
          ESCREVA("INFORME O VALOR: R$ ")
@@ -73,10 +73,10 @@ REPITA
                //---------------------------------------
 
 
-         CONT <- CONT + 1 // NÚMERO DE LANÇAMENTOS
+         CONT <- CONT + 1 // NÃšMERO DE LANÃ‡AMENTOS
 
          ESCREVAL()
-         ESCREVA("DESEJA INCLUIR OUTRO LANÇAMENTO? ")
+         ESCREVA("DESEJA INCLUIR OUTRO LANÃ‡AMENTO? ")
          LEIA (RESP)
 
          SALDO_FINAL <- SALDO_INICIAL + TOT_CRED + TOT_DEB
@@ -94,13 +94,13 @@ ATE RESP = "N"
 //TELA FINAL
 
          ESCREVAL("-------------------------------------------------------------")
-         ESCREVAL("                INCLUSÃO DE LANÇAMENTOS")
+         ESCREVAL("                INCLUSÃƒO DE LANÃ‡AMENTOS")
          ESCREVAL("-------------------------------------------------------------")
          ESCREVAL()
 
          ESCREVAL  ("                  SALDO INICIAL: R$ ",SALDO_INICIAL:8:2)
-         ESCREVAL  ("              TOTAL DE CRÉDITOS: R$ ",TOT_CRED:8:2)
-         ESCREVAL  ("               TOTAL DE DÉBITOS: R$ ",TOT_DEB:8:2)
+         ESCREVAL  ("              TOTAL DE CRÃ‰DITOS: R$ ",TOT_CRED:8:2)
+         ESCREVAL  ("               TOTAL DE DÃ‰BITOS: R$ ",TOT_DEB:8:2)
          ESCREVAL  ("                    SALDO FINAL: R$ ",SALDO_FINAL:8:2)
          ESCREVAL()
 
@@ -109,18 +109,18 @@ ATE RESP = "N"
          
             ESCREVAL()
             ESCREVAL("---------------------------------------------------------")
-            ESCREVAL("ALERTA!! SEU SALDO ESTA ABAIXO DA MARGEM DE SEGURANÇA!!")
+            ESCREVAL("ALERTA!! SEU SALDO ESTA ABAIXO DA MARGEM DE SEGURANÃ‡A!!")
             ESCREVAL("---------------------------------------------------------")
             ESCREVAL()
             
          FIMSE
 
 //------------------------------------------------------------------------------
-//TELA FINAL + LANÇAMENTOS
+//TELA FINAL + LANÃ‡AMENTOS
 
  ESCREVAL()
  ESCREVAL("------------------------------------------------------------------")
- ESCREVAL("                  DEMONSTRATIVO DE LANÇAMENTOS")
+ ESCREVAL("                  DEMONSTRATIVO DE LANÃ‡AMENTOS")
  ESCREVAL("------------------------------------------------------------------")
  ESCREVAL()
 
